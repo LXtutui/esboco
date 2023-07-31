@@ -1,0 +1,10 @@
+var array1=['pen','paper','book','bottle'];
+var randomNumber= Math.floor((Math.random()*array1.length)+1);
+console.log(randomNumber);
+var sketch = randomNumber;
+document.getElementById("desenho").innerHTML=sketch;
+var timerCounter=0;
+var timerCheck="";
+var drawSketch="";
+var answerHolder="";
+var score=0;
